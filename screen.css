@@ -26,13 +26,19 @@ h2 {
   padding: 0 0 .50em 0;
   font-weight: bold;
 }
-
+/* h3 */
 h3 {
   font-size: 1.740em;
   padding: .60em 0 .40em 0;
   font-weight: normal;
 }
-/* ul */
+/* li */
 li {
   font-size: 1.125em;
   padding: .10em 0 0 .30em;
+}
+/* p */
+li {
+  font-size: 1.425em;
+  padding: .10em 0 0 .30em;
+}
