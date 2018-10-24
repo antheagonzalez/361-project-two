@@ -11,25 +11,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 h1 {
   font-size: 2.425em;
   color: 000000;
-  padding: .20em 0 .50em 0;
+  padding: .25em 0 .25em 0;
   font-weight: bolder;
 }
 /* h2 */
 h2 {
   font-size: 2.125em;
-  padding: 0 0 .50em 0;
+  padding: .25em 0 .15em 0;
   font-weight: bold;
 }
 /* h3 */
 h3 {
   font-size: 1.740em;
-  padding: .60em 0 .40em 0;
+  padding: .40em 0 .35em 0;
   font-weight: normal;
 }
 /* li */
 li {
   font-size: 1.15em;
-  padding: .10em 0 0 .30em;
+  padding: .10em 0 .15em .30em;
 }
 /* p */
 p {
