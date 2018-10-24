@@ -14,7 +14,7 @@ html {
 }
 /* h1 */
 h1 {
-  font-size: 1.125em;
+  font-size: 3.725em; /*67.05 px / 18 px = 3.725 em*/
   color: navy;
   padding: 1.222em 0 0 0;
   font-weight: bolder;
