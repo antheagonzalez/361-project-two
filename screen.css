@@ -10,6 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* html */
 html {
     background-color: #F0FFF0;
+    font-family: "Times New Roman", Times, serif;
 }
 /* h1 */
 h1 {
@@ -33,7 +34,7 @@ h3 {
 }
 h4 {
   font-size: 1.540em;
-  padding: .40em 0 .35em 0;
+  padding: .10em 0 .10em 0;
   font-weight: normal;
 }
 /* li */
