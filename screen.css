@@ -9,32 +9,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*FOR PADDING IT GOES: Top, Right, Bottom, Left*/
 /* html */
 html {
-    background-color: #F0FFF0;
     font-family: "Times New Roman", Times, serif;
+    font-size: 1.125em;
+    line-height: 1.222em;
+    padding: 1em 0 1em 0;
 }
 /* h1 */
 h1 {
-  font-size: 2.425em;
+  font-size: 2.325em;
+  line-height: 2.422em;
   color: #191970;
-  padding: .25em 0 .25em 0;
   font-weight: bolder;
 }
 /* h2 */
 h2 {
   font-size: 2.125em;
+  line-height: 2.222em;
   color: #0000CD;
-  padding: .25em 0 .15em 0;
-  font-weight: bold;
+  font-weight: normal;
 }
 /* h3 */
 h3 {
   font-size: 1.740em;
-  padding: .40em 0 .35em 0;
+  line-height: 1.955em;
   font-weight: normal;
 }
 h4 {
   font-size: 1.540em;
-  padding: .10em 0 .10em 0;
+  line-height: 1.755em;
   font-weight: normal;
 }
 /* li */
@@ -42,13 +44,18 @@ li {
   font-size: 1.15em;
   padding: .10em 0 .15em .30em;
 }
+ul {
+  list-style-type: disc;
+  padding: 1em 0 1em 0;
+}
 /* p */
 p {
-  font-size: 1.20em;
   padding: 0 .10em 0 0;
 }
-
 /* img */
 img {
   width: 30%;
+}
+.extracurriculars {
+  list-style-type: square;
 }
