@@ -6,39 +6,34 @@
 /* Keep reset CSS to one minified line */
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
-/*FOR PADDING IT GOES: Top, Right, Bottom, Left*/
+/* FOR PADDING IT GOES: Top, Right, Bottom, Left* /
+/* Setting type with a perfect fourth from modularscale.com */
 
-/*Setting type with a perfect fourth
-moular scale website
-*/
-/* html */
-/*mess around with line height*/
+
 /*always start at moible start and work your way up / bgger,  do a media quary to make it bigger, start on iphone base*/
 html {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 20 / 18 = 1.111*/
   padding: 0 0 0 1em;
+  background-color: #D3D3D3;
 }
-/* h1 */
 h1 {
-  font-size: 2.369em; /*42.635 x / 18 = 2.369 */
-  line-height: 2.422em; /*43 / 18 = x*/
+  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  line-height: 2.389em; /* 43 / 18 = 2.389*/
   color: #191970;
   font-weight: bolder;
-  background: #000000;
 }
-/* h2 */
 h2 {
-  font-size: 2.125em;
-  line-height: 2.222em;
+  font-size: 1.777em; /* 34.374 / 18 = 1.777 */
+  line-height: 1.944em; /* 35 / 18 = 1.944 */
   color: #0000CD;
   font-weight: normal;
 }
 /* h3 */
 h3 {
-  font-size: 1.740em;
-  line-height: 1.955em;
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  line-height: 1.361em; /* 24. / 18 = 1.361 */
   font-weight: normal;
 }
 /* p */
@@ -61,13 +56,15 @@ ul {
   list-style-type: decimal;
   padding: 0 0 1.222em 1.222em;
 }
-.extracurriculars {
-  list-style-type: disc;
+.extracurriculars, .skills, .loosypage {
+  list-style-type: square;
+  padding: 0 0 1.222em 1.222em;
 }
-.coursesheader, .coursesschool {
+.coursesheader, .coursesschool, {
   display: flex;
   justify-content: center;
   list-style-type: none;
+  line-height: 1.222em;
 }
 
 /*absolute, flex*/
