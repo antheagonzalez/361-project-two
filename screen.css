@@ -62,17 +62,14 @@ ul {
   list-style-type: square;
   padding: 0 0 1.222em 1.222em;
 }
-.coursesheader, .coursesschool, {
-  display: flex;
-  justify-content: center;
+.coursesheader, .coursesschool {
   list-style-type: none;
   line-height: 1.222em;
+    padding: .333em 0 .111em 0;
 }
-
 .educationheader, .experienceheader, .extracurricularsheader, .skillsheader {
   padding: .333em 0 .111em 0;
 }
-
 .education, .experience, .extracurriculars, .skills {
   list-style-type: disc;
   padding: 0 0 .111em .222em;
@@ -83,11 +80,21 @@ ul {
   list-style-type: none;
   padding: 0 0 0 0;
 }
-
+.semester {
+  list-style-type: none;
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  font-weight: bold;
+}
 @media screen and (min-height: 600px) {
   .coursessection {
     display: flex;
     flex-direction: row;
+    padding: 0 .222em 0 .222em;
+    font-size: 1.333em; /* 34.374 / 18 = 1.777 */
+  }
+  .coursesheader, .coursesschool {
+    display: flex;
+    justify-content: center;
   }
 }
 /*absolute, flex*/
