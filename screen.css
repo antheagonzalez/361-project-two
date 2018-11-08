@@ -9,22 +9,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*FOR PADDING IT GOES: Top, Right, Bottom, Left*/
 /* html */
 html {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.125em;
-    line-height: 1.222em;
-    padding: 1em 0 1em 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.125em;
+  line-height: 1.222em;
+  padding: 0 0 0 1em;
 }
 /* h1 */
 h1 {
-  font-size: 2.325em;
-  line-height: 2.422em;
+  font-size: 2.225em;
+  line-height: 2.322em;
   color: #191970;
   font-weight: bolder;
 }
 /* h2 */
 h2 {
-  font-size: 2.125em;
-  line-height: 2.222em;
+  font-size: 1.925em;
+  line-height: 2.111em;
   color: #0000CD;
   font-weight: normal;
 }
@@ -34,20 +34,6 @@ h3 {
   line-height: 1.955em;
   font-weight: normal;
 }
-h4 {
-  font-size: 1.540em;
-  line-height: 1.755em;
-  font-weight: normal;
-}
-/* li */
-li {
-  font-size: 1.15em;
-  padding: .10em 0 .15em .30em;
-}
-ul {
-  list-style-type: disc;
-  padding: 1em 0 1em 0;
-}
 /* p */
 p {
   padding: 0 .10em 0 0;
@@ -56,6 +42,22 @@ p {
 img {
   width: 30%;
 }
+li {
+  padding: 0 0 0.222em 1.222em;
+}
+ul {
+  list-style-type: circle;
+  padding: 0 0 1.222em 1.222em;
+}
+.courses {
+  list-style-type: decimal;
+  padding: 0 0 1.222em 1.222em;
+}
 .extracurriculars {
-  list-style-type: square;
+  list-style-type: disc;
+}
+.coursesheader, .coursesschool {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
