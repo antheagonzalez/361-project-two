@@ -56,7 +56,7 @@ ul {
   list-style-type: decimal;
   padding: 0 0 1.222em 1.222em;
 }
-.extracurriculars, .skills, .loosypage {
+.loosypage {
   list-style-type: square;
   padding: 0 0 1.222em 1.222em;
 }
@@ -67,4 +67,12 @@ ul {
   line-height: 1.222em;
 }
 
+.educationheader, .experienceheader, .extracurricularsheader, .skillsheader {
+  padding: .333em 0 .111em 0;
+}
+
+.education, .experience, .extracurriculars, .skills {
+  list-style-type: disc;
+  padding: 0 0 .111em 0;
+}
 /*absolute, flex*/
