@@ -74,7 +74,6 @@ ul {
 }
 
 .education, .experience, .extracurriculars, .skills {
-
   list-style-type: disc;
   padding: 0 0 .111em .222em;
 }
@@ -85,5 +84,10 @@ ul {
   padding: 0 0 0 0;
 }
 
-
+@media screen and (min-height: 600px) {
+  .coursessection {
+    display: flex;
+    flex-direction: row;
+  }
+}
 /*absolute, flex*/
