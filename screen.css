@@ -8,9 +8,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 /* FOR PADDING IT GOES: Top, Right, Bottom, Left* /
 /* Setting type with a perfect fourth from modularscale.com */
-
-
-/*always start at moible start and work your way up / bgger,  do a media quary to make it bigger, start on iphone base*/
 html {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
@@ -30,17 +27,11 @@ h2 {
   color: #0000CD;
   font-weight: normal;
 }
-/* h3 */
 h3 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
   line-height: 1.361em; /* 24. / 18 = 1.361 */
   font-weight: normal;
 }
-/* p */
-p {
-  padding: 0 .10em 0 0;
-}
-/* img */
 img {
   width: 30%;
 }
@@ -54,6 +45,12 @@ ul {
   padding: 0 0 1.222em 1.222em;
 }
 /*moible scale, bump it over, when bigger make colummns*/
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  padding: 0 0 0 1.222em;
+}
 .courses {
   list-style-type: decimal;
   padding: 0 0 1.222em 1.222em;
@@ -97,4 +94,7 @@ ul {
     justify-content: center;
   }
 }
-/*absolute, flex*/
+@media screen and (min-height: 725px) {
+  .education, .experience, .extracurriculars, .skills {
+    font-size: 1.361em; /* 24. / 18 = 1.361 */
+}
