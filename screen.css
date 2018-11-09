@@ -97,4 +97,5 @@ ul {
 @media screen and (min-height: 725px) {
   .education, .experience, .extracurriculars, .skills {
     font-size: 1.361em; /* 24. / 18 = 1.361 */
+  }
 }
