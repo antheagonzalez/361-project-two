@@ -86,7 +86,7 @@ ul {
   .coursessection {
     display: flex;
     flex-direction: row;
-    padding: 0 .222em 0 .222em;
+    padding: 0 0.222em 0 0.222em;
     font-size: 1.333em; /* 34.374 / 18 = 1.777 */
   }
   .coursesheader, .coursesschool {
