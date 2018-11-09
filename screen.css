@@ -62,7 +62,7 @@ ul {
 .coursesheader, .coursesschool {
   list-style-type: none;
   line-height: 1.222em;
-    padding: 0.333em 0 0.111em 0;
+  padding: 0.333em 0 0.111em 0;
 }
 .educationheader, .experienceheader, .extracurricularsheader, .skillsheader {
   padding: 0.333em 0 0.111em 0;
@@ -82,7 +82,7 @@ ul {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
   font-weight: bold;
 }
-@media screen and (min-height: 600px) {
+@media screen and (min-width: 600px) {
   .coursessection {
     display: flex;
     flex-direction: row;
@@ -94,7 +94,7 @@ ul {
     justify-content: center;
   }
 }
-@media screen and (min-height: 725px) {
+@media screen and (min-width: 725px) {
   .education, .experience, .extracurriculars, .skills {
     font-size: 1.361em; /* 24. / 18 = 1.361 */
   }
