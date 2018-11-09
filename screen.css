@@ -38,7 +38,7 @@ img {
 li {
   font-size: 1em; /* 18 / 18 = 1*/
   line-height: 1.056em; /* 19 / 18 = 1.056 */
-  padding: 0 0 0.222em .222em;
+  padding: 0 0 0.222em 0.222em;
 }
 ul {
   list-style-type: circle;
@@ -62,14 +62,14 @@ ul {
 .coursesheader, .coursesschool {
   list-style-type: none;
   line-height: 1.222em;
-    padding: .333em 0 .111em 0;
+    padding: 0.333em 0 0.111em 0;
 }
 .educationheader, .experienceheader, .extracurricularsheader, .skillsheader {
-  padding: .333em 0 .111em 0;
+  padding: 0.333em 0 0.111em 0;
 }
 .education, .experience, .extracurriculars, .skills {
   list-style-type: disc;
-  padding: 0 0 .111em .222em;
+  padding: 0 0 0.111em 0.222em;
 }
 .resumeinfo {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
