@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+te/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -44,7 +44,6 @@ ul {
   list-style-type: circle;
   padding: 0 0 1.222em 1.222em;
 }
-/*moible scale, bump it over, when bigger make colummns*/
 .nav {
   display: flex;
   justify-content: flex-start;
@@ -55,7 +54,7 @@ ul {
   list-style-type: decimal;
   padding: 0 0 1.222em 1.222em;
 }
-.loosypage, .resumeinfo {
+.resumeinfo {
   list-style-type: square;
   padding: 0 0 1.222em 1.222em;
 }
@@ -67,7 +66,7 @@ ul {
 .educationheader, .experienceheader, .extracurricularsheader, .skillsheader {
   padding: 0.333em 0 0.111em 0;
 }
-.education, .experience, .extracurriculars, .skills {
+.education, .experience, .extracurriculars, .skills, .loosypage {
   list-style-type: disc;
   padding: 0 0 0.111em 0.222em;
 }
