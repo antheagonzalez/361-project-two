@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <title>My Cat, Loosy</title>
     <meta charset="utf-8" />
@@ -8,8 +8,8 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ol class="nav">
+    <nav id="nav">
+      <ol class="nav-list">
         <li><a href="../resume/">Resume</a></li>
         <li><a href="">My Cat</a></li>
         <li><a href="../">Courses Taken</a></li>
@@ -21,24 +21,19 @@
       <ul class="loosypage">
         <li>I have a fourteen year old American Short Hair named Loosy, she also goes by "Baby Loo" or "Gato".</li>
       </ul>
-      <figure>
-        <img id="baby-loosy" src="loosy-1.jpg" alt="Picture of Loosy"/>
-        <figcaption>
-          My favorite picture of Loosy! This was taken right before she attacked me.
-        </figcaption>
-      </figure>
-      <figure>
-        <img id="baby-loosy" src="loosy-2.jpg" alt="Picture of Loosy"/>
-        <figcaption>
-          Loosy in her sweater!
-        </figcaption>
-      </figure>
-      <figure>
-        <img id="baby-loosy" src="loosy-3.jpg" alt="Picture of Loosy"/>
-        <figcaption>
-          Loosy in her Halloween costume. (2018)
-        </figcaption>
-      </figure>
+  </section>
+  <section id="loosy">
+  <button class="btn">Click for more pictures!</button>
+  <figure>
+    <ul id ="images">
+      <li><img class="loosy" src="loosy-1.jpg" alt="Picture of Loosy"/></li>
+      <!--<li><img class="loosy" src="loosy-2.jpg" alt="Picture of Loosy 2"/></li>
+      <li><img class="loosy" src="loosy-3.jpg" alt="Picture of Loosy 3"/></li>-->
+    </ul>
+      <figcaption>
+        Loosy!
+      </figcaption>
+  </figure>
   </section>
   <section>
     <!--Quick Information- Description, Birthdate, Birth Details-->
@@ -60,5 +55,6 @@
         <li>She has an Instragram account (@loosykat), it is run by my younger sister.</li>
       </ul>
   </section>
+  <script src="../site.js"></script>
 </body>
 </html>
