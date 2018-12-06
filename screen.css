@@ -76,18 +76,6 @@ ul {
   font-weight: bold;
 }
 
-
-.btn {
-  background-color: white;
-  border-radius: 6.25em; /* 100px/16px */
-  border-color: yellow;
-  color: #777;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0.9375em 1.25em; /* 15px / 16 = 0.9375em | 20px / 16px = 1.25em*/
-}
-
-
 .nav-class {
   display: flex;
   justify-content: flex-start;
@@ -158,4 +146,3 @@ ul {
   .education, .experience, .extracurriculars, .skills {
     font-size: 1.361em; /* 24. / 18 = 1.361 */
   }
-}
