@@ -32,12 +32,7 @@ h3 {
   line-height: 1.361em; /* 24. / 18 = 1.361 */
   font-weight: normal;
 }
-img {
-  width: 30%;
-}
-#loosy{
-  width: 10%;
-}
+
 li {
   font-size: 1em; /* 18 / 18 = 1*/
   line-height: 1.056em; /* 19 / 18 = 1.056 */
@@ -46,6 +41,9 @@ li {
 ul {
   list-style-type: circle;
   padding: 0 0 1.222em 1.222em;
+}
+figcaption {
+  padding: 1em 0 0 0;
 }
 .courses {
   list-style-type: decimal;
@@ -79,7 +77,7 @@ ul {
   font-weight: bold;
 }
 
-.js .nav_list {
+.js .nav-list {
   display: none;
 }
 
@@ -88,7 +86,7 @@ ul {
   justify-content: flex-start;
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
   overflow: hidden;
-  padding: 0 0 0 1.222em;
+  padding: .777em 0 0 .111em;
 }
 
 #nav {
@@ -98,27 +96,22 @@ ul {
   padding: 0 0 0 1.222em;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 400px) {
- .nav-list a:not(:first-child) {display: none;}
- .nav-list a.icon {
-   float: right;
-   display: block;
+#loosy{
+  width: 10%;
+}
+
+@media screen and (min-width: 320px) {
+ .js .nav-list.visible {
+   font-size: .666em; /* 11.988 / 18 = .666 */
+   padding: 1.777em 0 0 .111em;
  }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 400px) {
- .nav-list.responsive {position: relative;}
- .nav-list.responsive a.icon {
-   position: absolute;
-   right: 0;
-   top: 0;
- }
- .nav-list.responsive a {
-   float: none;
-   display: block;
-   text-align: left;
+@media screen and (min-width: 600px) {
+ .js .nav-list.visible {
+   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+   justify-content: flex-center;
+   padding: .777em 0 0 .111em;
  }
 }
 
@@ -137,7 +130,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     padding: 0 0.222em 0 0.222em;
-    font-size: 1.333em; /* 34.374 / 18 = 1.777 */
+    font-size: 1.333em; /* 23.994 / 18 = 1.333 */
   }
   .coursesheader, .coursesschool {
     display: flex;

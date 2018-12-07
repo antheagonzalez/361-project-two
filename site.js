@@ -6,7 +6,7 @@ var navigation = document.querySelector('#nav');
 var nav_list = document.querySelector('.nav-list');
 
 // build the outer heading element
-var nav_heading = document.createElement('h3');
+var nav_heading = document.createElement('h2');
 
 // build the inner link element
 var menu_link = document.createElement('a');
