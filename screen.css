@@ -35,6 +35,9 @@ h3 {
 img {
   width: 30%;
 }
+#loosy{
+  width: 10%;
+}
 li {
   font-size: 1em; /* 18 / 18 = 1*/
   line-height: 1.056em; /* 19 / 18 = 1.056 */
@@ -76,7 +79,7 @@ ul {
   font-weight: bold;
 }
 
-.nav-class {
+.nav-list {
   display: flex;
   justify-content: flex-start;
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
@@ -116,13 +119,9 @@ ul {
  }
 }
 
-
-
-
-
-  @media screen and (min-width:360px) {
-    #loosy{
-      display: flex;
+@media screen and (min-width:360px) {
+  #loosy{
+    display: flex;
       flex-direction: row;
       justify-content: flex-center;
       width: 200%;
@@ -146,3 +145,5 @@ ul {
   .education, .experience, .extracurriculars, .skills {
     font-size: 1.361em; /* 24. / 18 = 1.361 */
   }
+}
+}
